@@ -69,10 +69,10 @@
             cursor: default;
         }
         .newField .curtain {
-            display: inline-block;
+            display: none; /* change */
             background-color: #ddd1;
             background-image: linear-gradient(to bottom right, hsla(260, 10%, 15%, 0.4), hsla(60, 45%, 20%, 0.2));
-            position: absolute;
+            /* position: absolute; */
             width: 120%;
             height: 120%;
             transform-origin: top;

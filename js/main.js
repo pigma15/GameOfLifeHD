@@ -95,7 +95,14 @@ heightPlusButton.onclick = () => {
     heightScreen.innerText = tempText;
 }
 
+const arr = [1, 2, 3, 4, 'o'];
+
+console.log(arr);
 
 
+const orr = arr.filter(item => typeof item === 'number');
+
+
+console.log(orr);
 
 
