@@ -1,0 +1,80 @@
+.container > .header {
+    
+}
+.header.on {
+
+}
+    .info {
+
+    }
+    .dimensions {
+
+    }
+    .dimensions.on {
+
+    }
+        .dimensions .curtain {
+
+        }
+        .dimensions.on .curtain {
+
+        }
+        .header .dimensions div {
+            
+        }
+        .dimensions .button {
+
+        }
+        .dimensions .button.on {
+
+
+        }
+        .dimensions.on .button {
+
+        }
+                .dimensions .button span {
+
+                }
+                .dimensions.on .button span {
+
+                }
+                .dimensions .button span.blur {
+
+                }
+                .dimensions.on .button span.blur {
+
+                }
+                .dimensions .button.on span {
+
+                }
+                .dimensions .button.on span.blur {
+
+                }
+            .dimensions .button.length.minus {
+
+            }
+            .dimensions .button.length.plus {
+
+            }
+            .dimensions .button.height.minus {
+
+            }
+            .dimensions .button.height.plus {
+
+            }
+
+            .dimensions .amount {
+
+            }
+            .dimensions .amount span {
+
+            }
+            .dimensions .amount.height span {
+
+            }
+            .dimensions .amount span.static {
+
+            }
+            .dimensions.on .amount span {
+
+            }

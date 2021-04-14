@@ -1,0 +1,10 @@
+@import './components/variables.css';
+@import './components/fonts.css';
+@import './components/reset.css';
+@import './components/layout.css';
+@import './components/dimensions.css';
+@import './components/transport.css';
+@import './components/hdSwitch.css';
+@import './components/screen.css';
+/*@import './components/mainc.css';
+@import './components/bottom.css'; */

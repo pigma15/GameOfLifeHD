@@ -1,0 +1,12 @@
+{
+  "name": "gameoflifehd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrius Kairys",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,24 @@
+/*
+main    grid-template-columns: 8fr 72fr 30fr;
+        grid-template-rows: 88fr 12fr;
+*/
+
+#screen {
+    display: inline-block;
+    grid-column: 2/3;
+    background: radial-gradient(hsl(80, 2%, 40%), hsl(120, 4%, 25%));
+    width: 100%;
+    height: 94%;
+    margin-top: 3%;
+    border-radius: 2px;
+}
+    #screen .grid {
+        display: grid;
+        width: 100%;
+        height: 100%;
+    }
+        #screen .spot {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #4448;
+        }

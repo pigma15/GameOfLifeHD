@@ -1,0 +1,11 @@
+/*
+main    grid-template-columns: 8fr 72fr 30fr;
+        grid-template-rows: 88fr 12fr;
+*/
+
+.hdSwitch {
+    display: inline-block;
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+}

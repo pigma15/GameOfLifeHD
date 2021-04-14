@@ -1,0 +1,18 @@
+html {
+    font-size: 20px;
+    font-family: ShareTechMono;
+    color: var(--font-light);
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+span::selection {
+    color: inherit;
+}

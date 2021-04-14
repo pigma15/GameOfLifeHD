@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="picture"></div>
+            <div class="dimensions">
+                <div class="curtain"></div>
+                <div class="button length minus">
+                    <span class="blur">-</span>
+                    <span>-</span>
+                </div>
+                <div class="amount length">
+                    <span class="static">00</span>
+                    <span class="lengthNr">16</span>
+                </div>
+                <div class="button length plus">
+                    <span class="blur">+</span>
+                    <span>+</span>
+                </div>
+                <div class="button height minus">
+                    <span class="blur">-</span>
+                    <span>-</span>
+                </div>
+                <div class="amount height">
+                    <span class="static">00</span>
+                    <span class="heightNr">09</span>
+                </div>
+                <div class="button height plus">
+                    <span class="blur">+</span>
+                    <span>+</span>
+                </div>
+            </div>
+            <div class="transport">
+                <div class="button start">
+                    <span class="blur">start</span>
+                    <span>start</span>                  
+                </div>
+                <div class="button stop">
+                    <span class="blur">stop</span>
+                    <span>stop</span>                  
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="hdSwitch"></div>
+            <div id="screen">
+                <div class="grid" style="grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(7, 1fr)">
+                    <div class="spot"></div>
+                </div>
+            </div>
+            <div class="generators">
+                <div class="newField">
+                    <div class="curtain"></div>
+                    <div class="empty">
+                        <span>empty</span>
+                    </div>
+                    <div class="random">
+                        <span>random</span>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <div class="speed"></div>
+        </div>
+        <div class="bottom"></div>
+    </div>
+</body>
+</html>
